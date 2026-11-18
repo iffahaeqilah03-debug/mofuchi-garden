@@ -1,0 +1,59 @@
+
+name: flutter_mofuchi_garden
+description: "Mofuchi Garden - Emotional Wellbeing App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  google_sign_in: ^6.2.1
+
+  # Animation and 3D Garden
+  rive: ^0.13.20
+  model_viewer_plus: ^1.10.0
+
+  # Photo and Video Memories
+  image_picker: ^1.2.4
+  video_player: ^2.14.1
+  path_provider: ^2.1.6
+  video_thumbnail: ^0.5.6
+  webview_flutter: ^4.14.1
+  shared_preferences: ^2.5.6
+  flutter_local_notifications: 19.5.0
+  timezone: ^0.10.1
+  flutter_timezone: ^5.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Six original emotion weather images
+    - assets/images/weather_img/
+    - assets/images/badges/
+    - assets/images/sky/
+    - assets/images/mood_icons/
+    - assets/images/decorations/
+    - assets/images/effects/
+    - assets/images/shop/
+    # 3D Sakura Garden
+    - assets/3D/
+    - assets/videos/mofuchi_bloom_day_01_to_07/
+    - assets/videos/mofuchi_falling_petals/
